@@ -115,7 +115,7 @@ if  __name__ == "__main__":
                 
                 width = bp[1][0] - bp[0][0]
                 for (objectID, centroid) in objects.items():
-                    if centroid[0] > bp[0][0]*0.8 and centroid[0] < bp[1][0]*1.2and centroid[1] > bp[0][1] and centroid[1] < bp[1][1]:
+                    if centroid[0] > bp[0][0]*0.8 and centroid[0] < bp[1][0]*1.2 and centroid[1] > bp[0][1] and centroid[1] < bp[1][1]:
                         ids_in_box_Now.append(centroid[1])
                 
             
